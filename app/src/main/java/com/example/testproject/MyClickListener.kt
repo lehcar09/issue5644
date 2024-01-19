@@ -10,6 +10,6 @@ class MyClickListener : FirebaseInAppMessagingClickListener {
     override fun messageClicked(inAppMessage: InAppMessage, action: Action) {
         // Determine which URL the user clicked
         val url = action.actionUrl
-        Log.d("Issue5644", "Clicked URL: $url" );
+        Log.d("Issue5644", "Clicked URL: $url" )
     }
 }
