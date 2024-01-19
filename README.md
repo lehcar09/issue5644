@@ -12,3 +12,6 @@
 1. Add FirebaseInAppMessagingDisplayErrorListener via FirebaseInAppMessaging.getInstance().addDisplayErrorListener().
 1. Create a new campaign with a jpeg whose format is unsupported and make it display in the app (i.e You can create a non-jpeg file(e.g. .log, .txt, or others...). Modify its' filename extension from .log/.txt/... to .jpg)
 1. DisplayErrorListener won't be triggered while displaying error in-app messaging.
+
+### Error Log
+https://github.com/lehcar09/issue5644/blob/main/Issue5644%20-%20Log
