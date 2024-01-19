@@ -1,0 +1,633 @@
+---------------------------- PROCESS STARTED (7094) for package com.example.testproject ----------------------------
+2024-01-19 22:37:13.479  7094-7094  FirebaseApp             com.example.testproject              I  Device unlocked: initializing all Firebase APIs for app [DEFAULT]
+2024-01-19 22:37:13.676  7094-7094  Glide                   com.example.testproject              W  Failed to find GeneratedAppGlideModule. You should include an annotationProcessor compile dependency on com.github.bumptech.glide:compiler in your application and a @GlideModule annotated AppGlideModule implementation or LibraryGlideModules will be silently ignored
+2024-01-19 22:37:13.679  7094-7125  FIAM.Headless           com.example.testproject              I  Starting InAppMessaging runtime with Installation ID d47TBrarTjamCjDJIi5g9_
+2024-01-19 22:37:13.750  7094-7094  FirebaseInitProvider    com.example.testproject              I  FirebaseApp initialization successful
+2024-01-19 22:37:13.841  7094-7094  FIAM.Headless           com.example.testproject              I  went foreground
+2024-01-19 22:37:13.843  7094-7094  FIAM.Display            com.example.testproject              I  Binding to activity: MainActivity
+2024-01-19 22:37:13.845  7094-7094  FIAM.Headless           com.example.testproject              I  Setting display event component
+2024-01-19 22:37:13.870  7094-7134  OpenGLRenderer          com.example.testproject              D  HWUI GL Pipeline
+2024-01-19 22:37:13.871  7094-7124  FIAM.Headless           com.example.testproject              I  Forcing fetch from service rather than cache. Test Device: true | App Fresh Install: true
+2024-01-19 22:37:13.944  7094-7137  FIAM.Headless           com.example.testproject              I  Fetching campaigns from service.
+2024-01-19 22:37:13.982  7094-7137  DynamiteModule          com.example.testproject              W  Local module descriptor class for com.google.android.gms.providerinstaller.dynamite not found.
+2024-01-19 22:37:14.019  7094-7137  DynamiteModule          com.example.testproject              I  Considering local module com.google.android.gms.providerinstaller.dynamite:0 and remote module com.google.android.gms.providerinstaller.dynamite:0
+2024-01-19 22:37:14.019  7094-7137  ProviderInstaller       com.example.testproject              W  Failed to load providerinstaller module: No acceptable module com.google.android.gms.providerinstaller.dynamite found. Local version is 0 and remote version is 0.
+2024-01-19 22:37:14.078  7094-7137  zygote                  com.example.testproject              I  The ClassLoaderContext is a special shared library.
+2024-01-19 22:37:14.094  7094-7137  chatty                  com.example.testproject              I  uid=10080(com.example.testproject) RxCachedThreadS identical 1 line
+2024-01-19 22:37:14.115  7094-7137  zygote                  com.example.testproject              I  The ClassLoaderContext is a special shared library.
+2024-01-19 22:37:14.178  7094-7137  ProviderInstaller       com.example.testproject              W  Failed to report request stats: reportRequestStats [class android.content.Context, long, long]
+2024-01-19 22:37:14.229  7094-7137  NativeCrypto            com.example.testproject              V  Registering com/google/android/gms/org/conscrypt/NativeCrypto's 286 native methods...
+2024-01-19 22:37:14.286  7094-7094  zygote                  com.example.testproject              W  Class androidx.compose.runtime.snapshots.SnapshotStateMap failed lock verification and will run slower.
+2024-01-19 22:37:14.286  7094-7094  zygote                  com.example.testproject              W  Common causes for lock verification issues are non-optimized dex code
+2024-01-19 22:37:14.286  7094-7094  zygote                  com.example.testproject              W  and incorrect proguard optimizations.
+2024-01-19 22:37:14.415  7094-7137  NetworkSecurityConfig   com.example.testproject              D  No Network Security Config specified, using platform default
+2024-01-19 22:37:14.422  7094-7137  ProviderInstaller       com.example.testproject              I  Installed default security provider GmsCore_OpenSSL
+2024-01-19 22:37:14.509  7094-7099  zygote                  com.example.testproject              I  Do partial code cache collection, code=27KB, data=22KB
+2024-01-19 22:37:14.511  7094-7099  zygote                  com.example.testproject              I  After code cache collection, code=27KB, data=22KB
+2024-01-19 22:37:14.511  7094-7099  zygote                  com.example.testproject              I  Increasing code cache capacity to 128KB
+2024-01-19 22:37:14.624  7094-7134  <no-tag>                com.example.testproject              D  HostConnection::get() New Host Connection established 0xd05cd2c0, tid 7134
+2024-01-19 22:37:14.653  7094-7134  zygote                  com.example.testproject              I  android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasWideColorDisplay retrieved: 0
+2024-01-19 22:37:14.653  7094-7134  OpenGLRenderer          com.example.testproject              I  Initialized EGL, version 1.4
+2024-01-19 22:37:14.653  7094-7134  OpenGLRenderer          com.example.testproject              D  Swap behavior 1
+2024-01-19 22:37:14.654  7094-7134  OpenGLRenderer          com.example.testproject              W  Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+2024-01-19 22:37:14.654  7094-7134  OpenGLRenderer          com.example.testproject              D  Swap behavior 0
+2024-01-19 22:37:14.658  7094-7134  EGL_emulation           com.example.testproject              D  eglCreateContext: 0xea92c900: maj 3 min 0 rcv 3
+2024-01-19 22:37:14.667  7094-7134  EGL_emulation           com.example.testproject              D  eglMakeCurrent: 0xea92c900: ver 3 0 (tinfo 0xea91ba50)
+2024-01-19 22:37:14.721  7094-7094  Compose Focus           com.example.testproject              D  Owner FocusChanged(true)
+2024-01-19 22:37:14.722  7094-7094  FIAM-Quickstart         com.example.testproject              D  Installation ID: d47TBrarTjamCjDJIi5g9_
+2024-01-19 22:37:14.829  7094-7105  zygote                  com.example.testproject              I  Background concurrent copying GC freed 13782(1096KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/4MB, paused 16.146ms total 192.867ms
+2024-01-19 22:37:14.837  7094-7094  Choreographer           com.example.testproject              I  Skipped 48 frames!  The application may be doing too much work on its main thread.
+2024-01-19 22:37:14.856  7094-7134  EGL_emulation           com.example.testproject              D  eglMakeCurrent: 0xea92c900: ver 3 0 (tinfo 0xea91ba50)
+2024-01-19 22:37:15.274  7094-7137  FIAM.Headless           com.example.testproject              I  Successfully fetched 1 messages from backend
+2024-01-19 22:37:15.349  7094-7147  skia                    com.example.testproject              D  --- SkAndroidCodec::NewFromStream returned null
+2024-01-19 22:37:15.353  7094-7147  skia                    com.example.testproject              D  --- SkAndroidCodec::NewFromStream returned null
+2024-01-19 22:37:15.361  7094-7147  skia                    com.example.testproject              D  --- SkAndroidCodec::NewFromStream returned null
+2024-01-19 22:37:15.362  7094-7147  skia                    com.example.testproject              D  --- SkAndroidCodec::NewFromStream returned null
+2024-01-19 22:37:15.381  7094-7147  skia                    com.example.testproject              D  --- SkAndroidCodec::NewFromStream returned null
+2024-01-19 22:37:15.388  7094-7147  chatty                  com.example.testproject              I  uid=10080(com.example.testproject) glide-disk-cach identical 4 lines
+2024-01-19 22:37:15.390  7094-7147  skia                    com.example.testproject              D  --- SkAndroidCodec::NewFromStream returned null
+2024-01-19 22:37:16.690  7094-7152  skia                    com.example.testproject              D  --- SkAndroidCodec::NewFromStream returned null
+2024-01-19 22:37:16.691  7094-7152  skia                    com.example.testproject              D  --- SkAndroidCodec::NewFromStream returned null
+2024-01-19 22:37:16.699  7094-7152  skia                    com.example.testproject              D  --- SkAndroidCodec::NewFromStream returned null
+2024-01-19 22:37:16.700  7094-7152  skia                    com.example.testproject              D  --- SkAndroidCodec::NewFromStream returned null
+2024-01-19 22:37:16.712  7094-7152  skia                    com.example.testproject              D  --- SkAndroidCodec::NewFromStream returned null
+2024-01-19 22:37:16.718  7094-7152  chatty                  com.example.testproject              I  uid=10080(com.example.testproject) glide-source-th identical 4 lines
+2024-01-19 22:37:16.720  7094-7152  skia                    com.example.testproject              D  --- SkAndroidCodec::NewFromStream returned null
+2024-01-19 22:37:16.736  7094-7094  Glide                   com.example.testproject              W  Load failed for https://firebasestorage.googleapis.com/v0/b/githubtesting-be460.appspot.com/o/test.jpeg?alt=media&token=13119a25-6764-4a6c-8de6-b90b27e4e98 with size [-2147483648x-2147483648]
+                                                                                                    class com.bumptech.glide.load.engine.GlideException: Failed to load resource
+                                                                                                    There were 8 causes:
+                                                                                                    java.io.IOException(java.lang.RuntimeException: setDataSourceCallback failed: status = 0x80000000)
+                                                                                                    java.io.IOException(java.lang.RuntimeException: setDataSourceCallback failed: status = 0x80000000)
+                                                                                                    java.io.IOException(java.lang.RuntimeException: setDataSource failed: status = 0x80000000)
+                                                                                                    java.io.IOException(java.lang.RuntimeException: setDataSource failed: status = 0x80000000)
+                                                                                                    java.io.IOException(java.lang.RuntimeException: setDataSourceCallback failed: status = 0x80000000)
+                                                                                                    java.io.IOException(java.lang.RuntimeException: setDataSourceCallback failed: status = 0x80000000)
+                                                                                                    java.io.IOException(java.lang.RuntimeException: setDataSource failed: status = 0x80000000)
+                                                                                                    java.io.IOException(java.lang.RuntimeException: setDataSource failed: status = 0x80000000)
+                                                                                                     call GlideException#logRootCauses(String) for more detail
+                                                                                                      Cause (1 of 6): class com.bumptech.glide.load.engine.GlideException: Failed LoadPath{DirectByteBuffer->Object->Drawable}, DATA_DISK_CACHE, https://firebasestorage.googleapis.com/v0/b/githubtesting-be460.appspot.com/o/test.jpeg?alt=media&token=13119a25-6764-4a6c-8de6-b90b27e4e98
+                                                                                                    There were 2 causes:
+                                                                                                    java.io.IOException(java.lang.RuntimeException: setDataSourceCallback failed: status = 0x80000000)
+                                                                                                    java.io.IOException(java.lang.RuntimeException: setDataSourceCallback failed: status = 0x80000000)
+                                                                                                     call GlideException#logRootCauses(String) for more detail
+                                                                                                        Cause (1 of 3): class com.bumptech.glide.load.engine.GlideException: Failed DecodePath{DirectByteBuffer->GifDrawable->Drawable}
+                                                                                                        Cause (2 of 3): class com.bumptech.glide.load.engine.GlideException: Failed DecodePath{DirectByteBuffer->Bitmap->Drawable}
+                                                                                                    There was 1 cause:
+                                                                                                    java.io.IOException(java.lang.RuntimeException: setDataSourceCallback failed: status = 0x80000000)
+                                                                                                     call GlideException#logRootCauses(String) for more detail
+                                                                                                          Cause (1 of 1): class java.io.IOException: java.lang.RuntimeException: setDataSourceCallback failed: status = 0x80000000
+                                                                                                        Cause (3 of 3): class com.bumptech.glide.load.engine.GlideException: Failed DecodePath{DirectByteBuffer->BitmapDrawable->Drawable}
+                                                                                                    There was 1 cause:
+                                                                                                    java.io.IOException(java.lang.RuntimeException: setDataSourceCallback failed: status = 0x80000000)
+                                                                                                     call GlideException#logRootCauses(String) for more detail
+                                                                                                          Cause (1 of 1): class java.io.IOException: java.lang.RuntimeException: setDataSourceCallback failed: status = 0x80000000
+                                                                                                      Cause (2 of 6): class com.bumptech.glide.load.engine.GlideException: Failed LoadPath{FileInputStream->Object->Drawable}, DATA_DISK_CACHE, https://firebasestorage.googleapis.com/v0/b/githubtesting-be460.appspot.com/o/test.jpeg?alt=media&token=13119a25-6764-4a6c-8de6-b90b27e4e98
+                                                                                                        Cause (1 of 3): class com.bumptech.glide.load.engine.GlideException: Failed DecodePath{FileInputStream->GifDrawable->Drawable}
+                                                                                                        Cause (2 of 3): class com.bumptech.glide.load.engine.GlideException: Failed DecodePath{FileInputStream->Bitmap->Drawable}
+                                                                                                        Cause (3 of 3): class com.bumptech.glide.load.engine.GlideException: Failed DecodePath{FileInputStream->BitmapDrawable->Drawable}
+                                                                                                      Cause (3 of 6): class com.bumptech.glide.load.engine.GlideException: Failed LoadPath{ParcelFileDescriptor->Object->Drawable}, DATA_DISK_CACHE, https://firebasestorage.googleapis.com/v0/b/githubtesting-be460.appspot.com/o/test.jpeg?alt=media&token=13119a25-6764-4a6c-8de6-b90b27e4e98
+                                                                                                    There were 2 causes:
+                                                                                                    java.io.IOException(java.lang.RuntimeException: setDataSource failed: status = 0x80000000)
+                                                                                                    java.io.IOException(java.lang.RuntimeException: setDataSource failed: status = 0x80000000)
+                                                                                                     call GlideException#logRootCauses(String) for more detail
+                                                                                                        Cause (1 of 2): class com.bumptech.glide.load.engine.GlideException: Failed DecodePath{ParcelFileDescriptor->Bitmap->Drawable}
+2024-01-19 22:37:16.740  7094-7094  Glide                   com.example.testproject              W  There was 1 cause:
+                                                                                                    java.io.IOException(java.lang.RuntimeException: setDataSource failed: status = 0x80000000)
+                                                                                                     call GlideException#logRootCauses(String) for more detail
+                                                                                                          Cause (1 of 1): class java.io.IOException: java.lang.RuntimeException: setDataSource failed: status = 0x80000000
+                                                                                                        Cause (2 of 2): class com.bumptech.glide.load.engine.GlideException: Failed DecodePath{ParcelFileDescriptor->BitmapDrawable->Drawable}
+                                                                                                    There was 1 cause:
+                                                                                                    java.io.IOException(java.lang.RuntimeException: setDataSource failed: status = 0x80000000)
+                                                                                                     call GlideException#logRootCauses(String) for more detail
+                                                                                                          Cause (1 of 1): class java.io.IOException: java.lang.RuntimeException: setDataSource failed: status = 0x80000000
+                                                                                                      Cause (4 of 6): class com.bumptech.glide.load.engine.GlideException: Failed LoadPath{DirectByteBuffer->Object->Drawable}, REMOTE, https://firebasestorage.googleapis.com/v0/b/githubtesting-be460.appspot.com/o/test.jpeg?alt=media&token=13119a25-6764-4a6c-8de6-b90b27e4e98
+                                                                                                    There were 2 causes:
+                                                                                                    java.io.IOException(java.lang.RuntimeException: setDataSourceCallback failed: status = 0x80000000)
+                                                                                                    java.io.IOException(java.lang.RuntimeException: setDataSourceCallback failed: status = 0x80000000)
+                                                                                                     call GlideException#logRootCauses(String) for more detail
+                                                                                                        Cause (1 of 3): class com.bumptech.glide.load.engine.GlideException: Failed DecodePath{DirectByteBuffer->GifDrawable->Drawable}
+                                                                                                        Cause (2 of 3): class com.bumptech.glide.load.engine.GlideException: Failed DecodePath{DirectByteBuffer->Bitmap->Drawable}
+                                                                                                    There was 1 cause:
+                                                                                                    java.io.IOException(java.lang.RuntimeException: setDataSourceCallback failed: status = 0x80000000)
+                                                                                                     call GlideException#logRootCauses(String) for more detail
+                                                                                                          Cause (1 of 1): class java.io.IOException: java.lang.RuntimeException: setDataSourceCallback failed: status = 0x80000000
+                                                                                                        Cause (3 of 3): class com.bumptech.glide.load.engine.GlideException: Failed DecodePath{DirectByteBuffer->BitmapDrawable->Drawable}
+                                                                                                    There was 1 cause:
+                                                                                                    java.io.IOException(java.lang.RuntimeException: setDataSourceCallback failed: status = 0x80000000)
+                                                                                                     call GlideException#logRootCauses(String) for more detail
+                                                                                                          Cause (1 of 1): class java.io.IOException: java.lang.RuntimeException: setDataSourceCallback failed: status = 0x80000000
+                                                                                                      Cause (5 of 6): class com.bumptech.glide.load.engine.GlideException: Failed LoadPath{FileInputStream->Object->Drawable}, REMOTE, https://firebasestorage.googleapis.com/v0/b/githubtesting-be460.appspot.com/o/test.jpeg?alt=media&token=13119a25-6764-4a6c-8de6-b90b27e4e98
+                                                                                                        Cause (1 of 3): class com.bumptech.glide.load.engine.GlideException: Failed DecodePath{FileInputStream->GifDrawable->Drawable}
+                                                                                                        Cause (2 of 3): class com.bumptech.glide.load.engine.GlideException: Failed DecodePath{FileInputStream->Bitmap->Drawable}
+                                                                                                        Cause (3 of 3): class com.bumptech.glide.load.engine.GlideException: Failed DecodePath{FileInputStream->BitmapDrawable->Drawable}
+                                                                                                      Cause (6 of 6): class com.bumptech.glide.load.engine.GlideException: Failed LoadPath{ParcelFileDescriptor->Object->Drawable}, REMOTE, https://firebasestorage.googleapis.com/v0/b/githubtesting-be460.appspot.com/o/test.jpeg?alt=media&token=13119a25-6764-4a6c-8de6-b90b27e4e98
+                                                                                                    There were 2 causes:
+                                                                                                    java.io.IOException(java.lang.RuntimeException: setDataSource failed: status = 0x80000000)
+                                                                                                    java.io.IOException(java.lang.RuntimeException: setDataSource failed: status = 0x80000000)
+                                                                                                     call GlideException#logRootCauses(String) for more detail
+                                                                                                        Cause (1 of 2): class com.bumptech.glide.load.engine.GlideException: Failed DecodePath{ParcelFileDescriptor->Bitmap->Drawable}
+                                                                                                    There was 1 cause:
+                                                                                                    java.io.IOException(java.lang.RuntimeException: setDataSource failed: status = 0x80000000)
+                                                                                                     call GlideException#logRootCauses(String) for more detail
+                                                                                                          Cause (1 of 1): class java.io.IOException: java.lang.RuntimeException: setDataSource failed: status = 0x80000000
+                                                                                                        Cause (2 of 2): class com.bumptech.glide.load.engine.GlideException: Failed DecodePath{ParcelFileDescriptor->BitmapDrawable->Drawable}
+2024-01-19 22:37:16.741  7094-7094  Glide                   com.example.testproject              W  There was 1 cause:
+                                                                                                    java.io.IOException(java.lang.RuntimeException: setDataSource failed: status = 0x80000000)
+                                                                                                     call GlideException#logRootCauses(String) for more detail
+                                                                                                          Cause (1 of 1): class java.io.IOException: java.lang.RuntimeException: setDataSource failed: status = 0x80000000
+2024-01-19 22:37:16.748  7094-7094  Glide                   com.example.testproject              I  Root cause (1 of 8)
+                                                                                                    java.io.IOException: java.lang.RuntimeException: setDataSourceCallback failed: status = 0x80000000
+                                                                                                    	at com.bumptech.glide.load.resource.bitmap.VideoDecoder.decode(VideoDecoder.java:185)
+                                                                                                    	at com.bumptech.glide.load.engine.DecodePath.decodeResourceWithList(DecodePath.java:92)
+                                                                                                    	at com.bumptech.glide.load.engine.DecodePath.decodeResource(DecodePath.java:70)
+                                                                                                    	at com.bumptech.glide.load.engine.DecodePath.decode(DecodePath.java:59)
+                                                                                                    	at com.bumptech.glide.load.engine.LoadPath.loadWithExceptionList(LoadPath.java:76)
+                                                                                                    	at com.bumptech.glide.load.engine.LoadPath.load(LoadPath.java:57)
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.runLoadPath(DecodeJob.java:524)
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.decodeFromFetcher(DecodeJob.java:488)
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.decodeFromData(DecodeJob.java:474)
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.decodeFromRetrievedData(DecodeJob.java:426)
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.onDataFetcherReady(DecodeJob.java:390)
+                                                                                                    	at com.bumptech.glide.load.engine.DataCacheGenerator.onDataReady(DataCacheGenerator.java:94)
+                                                                                                    	at com.bumptech.glide.load.model.ByteBufferFileLoader$ByteBufferFetcher.loadData(ByteBufferFileLoader.java:70)
+                                                                                                    	at com.bumptech.glide.load.engine.DataCacheGenerator.startNext(DataCacheGenerator.java:74)
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.runGenerators(DecodeJob.java:310)
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.runWrapped(DecodeJob.java:276)
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.run(DecodeJob.java:234)
+                                                                                                    	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+                                                                                                    	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+                                                                                                    	at java.lang.Thread.run(Thread.java:764)
+                                                                                                    	at com.bumptech.glide.load.engine.executor.GlideExecutor$DefaultThreadFactory$1.run(GlideExecutor.java:393)
+                                                                                                    Caused by: java.lang.RuntimeException: setDataSourceCallback failed: status = 0x80000000
+                                                                                                    	at android.media.MediaMetadataRetriever._setDataSource(Native Method)
+                                                                                                    	at android.media.MediaMetadataRetriever.setDataSource(MediaMetadataRetriever.java:207)
+                                                                                                    	at com.bumptech.glide.load.resource.bitmap.VideoDecoder$ByteBufferInitializer.initialize(VideoDecoder.java:316)
+                                                                                                    	at com.bumptech.glide.load.resource.bitmap.VideoDecoder$ByteBufferInitializer.initialize(VideoDecoder.java:310)
+                                                                                                    	at com.bumptech.glide.load.resource.bitmap.VideoDecoder.decode(VideoDecoder.java:173)
+                                                                                                    	at com.bumptech.glide.load.engine.DecodePath.decodeResourceWithList(DecodePath.java:92) 
+                                                                                                    	at com.bumptech.glide.load.engine.DecodePath.decodeResource(DecodePath.java:70) 
+                                                                                                    	at com.bumptech.glide.load.engine.DecodePath.decode(DecodePath.java:59) 
+                                                                                                    	at com.bumptech.glide.load.engine.LoadPath.loadWithExceptionList(LoadPath.java:76) 
+                                                                                                    	at com.bumptech.glide.load.engine.LoadPath.load(LoadPath.java:57) 
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.runLoadPath(DecodeJob.java:524) 
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.decodeFromFetcher(DecodeJob.java:488) 
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.decodeFromData(DecodeJob.java:474) 
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.decodeFromRetrievedData(DecodeJob.java:426) 
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.onDataFetcherReady(DecodeJob.java:390) 
+                                                                                                    	at com.bumptech.glide.load.engine.DataCacheGenerator.onDataReady(DataCacheGenerator.java:94) 
+                                                                                                    	at com.bumptech.glide.load.model.ByteBufferFileLoader$ByteBufferFetcher.loadData(ByteBufferFileLoader.java:70) 
+                                                                                                    	at com.bumptech.glide.load.engine.DataCacheGenerator.startNext(DataCacheGenerator.java:74) 
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.runGenerators(DecodeJob.java:310) 
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.runWrapped(DecodeJob.java:276) 
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.run(DecodeJob.java:234) 
+                                                                                                    	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162) 
+                                                                                                    	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636) 
+                                                                                                    	at java.lang.Thread.run(Thread.java:764) 
+                                                                                                    	at com.bumptech.glide.load.engine.executor.GlideExecutor$DefaultThreadFactory$1.run(GlideExecutor.java:393) 
+2024-01-19 22:37:16.750  7094-7094  Glide                   com.example.testproject              I  Root cause (2 of 8)
+                                                                                                    java.io.IOException: java.lang.RuntimeException: setDataSourceCallback failed: status = 0x80000000
+                                                                                                    	at com.bumptech.glide.load.resource.bitmap.VideoDecoder.decode(VideoDecoder.java:185)
+                                                                                                    	at com.bumptech.glide.load.resource.bitmap.BitmapDrawableDecoder.decode(BitmapDrawableDecoder.java:58)
+                                                                                                    	at com.bumptech.glide.load.engine.DecodePath.decodeResourceWithList(DecodePath.java:92)
+                                                                                                    	at com.bumptech.glide.load.engine.DecodePath.decodeResource(DecodePath.java:70)
+                                                                                                    	at com.bumptech.glide.load.engine.DecodePath.decode(DecodePath.java:59)
+                                                                                                    	at com.bumptech.glide.load.engine.LoadPath.loadWithExceptionList(LoadPath.java:76)
+                                                                                                    	at com.bumptech.glide.load.engine.LoadPath.load(LoadPath.java:57)
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.runLoadPath(DecodeJob.java:524)
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.decodeFromFetcher(DecodeJob.java:488)
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.decodeFromData(DecodeJob.java:474)
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.decodeFromRetrievedData(DecodeJob.java:426)
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.onDataFetcherReady(DecodeJob.java:390)
+                                                                                                    	at com.bumptech.glide.load.engine.DataCacheGenerator.onDataReady(DataCacheGenerator.java:94)
+                                                                                                    	at com.bumptech.glide.load.model.ByteBufferFileLoader$ByteBufferFetcher.loadData(ByteBufferFileLoader.java:70)
+                                                                                                    	at com.bumptech.glide.load.engine.DataCacheGenerator.startNext(DataCacheGenerator.java:74)
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.runGenerators(DecodeJob.java:310)
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.runWrapped(DecodeJob.java:276)
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.run(DecodeJob.java:234)
+                                                                                                    	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+                                                                                                    	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+                                                                                                    	at java.lang.Thread.run(Thread.java:764)
+                                                                                                    	at com.bumptech.glide.load.engine.executor.GlideExecutor$DefaultThreadFactory$1.run(GlideExecutor.java:393)
+                                                                                                    Caused by: java.lang.RuntimeException: setDataSourceCallback failed: status = 0x80000000
+                                                                                                    	at android.media.MediaMetadataRetriever._setDataSource(Native Method)
+                                                                                                    	at android.media.MediaMetadataRetriever.setDataSource(MediaMetadataRetriever.java:207)
+                                                                                                    	at com.bumptech.glide.load.resource.bitmap.VideoDecoder$ByteBufferInitializer.initialize(VideoDecoder.java:316)
+                                                                                                    	at com.bumptech.glide.load.resource.bitmap.VideoDecoder$ByteBufferInitializer.initialize(VideoDecoder.java:310)
+                                                                                                    	at com.bumptech.glide.load.resource.bitmap.VideoDecoder.decode(VideoDecoder.java:173)
+                                                                                                    	at com.bumptech.glide.load.resource.bitmap.BitmapDrawableDecoder.decode(BitmapDrawableDecoder.java:58) 
+                                                                                                    	at com.bumptech.glide.load.engine.DecodePath.decodeResourceWithList(DecodePath.java:92) 
+                                                                                                    	at com.bumptech.glide.load.engine.DecodePath.decodeResource(DecodePath.java:70) 
+                                                                                                    	at com.bumptech.glide.load.engine.DecodePath.decode(DecodePath.java:59) 
+                                                                                                    	at com.bumptech.glide.load.engine.LoadPath.loadWithExceptionList(LoadPath.java:76) 
+                                                                                                    	at com.bumptech.glide.load.engine.LoadPath.load(LoadPath.java:57) 
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.runLoadPath(DecodeJob.java:524) 
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.decodeFromFetcher(DecodeJob.java:488) 
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.decodeFromData(DecodeJob.java:474) 
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.decodeFromRetrievedData(DecodeJob.java:426) 
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.onDataFetcherReady(DecodeJob.java:390) 
+                                                                                                    	at com.bumptech.glide.load.engine.DataCacheGenerator.onDataReady(DataCacheGenerator.java:94) 
+                                                                                                    	at com.bumptech.glide.load.model.ByteBufferFileLoader$ByteBufferFetcher.loadData(ByteBufferFileLoader.java:70) 
+                                                                                                    	at com.bumptech.glide.load.engine.DataCacheGenerator.startNext(DataCacheGenerator.java:74) 
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.runGenerators(DecodeJob.java:310) 
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.runWrapped(DecodeJob.java:276) 
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.run(DecodeJob.java:234) 
+                                                                                                    	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162) 
+                                                                                                    	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636) 
+                                                                                                    	at java.lang.Thread.run(Thread.java:764) 
+                                                                                                    	at com.bumptech.glide.load.engine.executor.GlideExecutor$DefaultThreadFactory$1.run(GlideExecutor.java:393) 
+2024-01-19 22:37:16.752  7094-7094  Glide                   com.example.testproject              I  Root cause (3 of 8)
+                                                                                                    java.io.IOException: java.lang.RuntimeException: setDataSource failed: status = 0x80000000
+                                                                                                    	at com.bumptech.glide.load.resource.bitmap.VideoDecoder.decode(VideoDecoder.java:185)
+                                                                                                    	at com.bumptech.glide.load.engine.DecodePath.decodeResourceWithList(DecodePath.java:92)
+                                                                                                    	at com.bumptech.glide.load.engine.DecodePath.decodeResource(DecodePath.java:70)
+                                                                                                    	at com.bumptech.glide.load.engine.DecodePath.decode(DecodePath.java:59)
+                                                                                                    	at com.bumptech.glide.load.engine.LoadPath.loadWithExceptionList(LoadPath.java:76)
+                                                                                                    	at com.bumptech.glide.load.engine.LoadPath.load(LoadPath.java:57)
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.runLoadPath(DecodeJob.java:524)
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.decodeFromFetcher(DecodeJob.java:488)
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.decodeFromData(DecodeJob.java:474)
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.decodeFromRetrievedData(DecodeJob.java:426)
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.onDataFetcherReady(DecodeJob.java:390)
+                                                                                                    	at com.bumptech.glide.load.engine.DataCacheGenerator.onDataReady(DataCacheGenerator.java:94)
+                                                                                                    	at com.bumptech.glide.load.model.FileLoader$FileFetcher.loadData(FileLoader.java:79)
+                                                                                                    	at com.bumptech.glide.load.engine.DataCacheGenerator.startNext(DataCacheGenerator.java:74)
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.runGenerators(DecodeJob.java:310)
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.decodeFromRetrievedData(DecodeJob.java:434)
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.onDataFetcherReady(DecodeJob.java:390)
+                                                                                                    	at com.bumptech.glide.load.engine.DataCacheGenerator.onDataReady(DataCacheGenerator.java:94)
+                                                                                                    	at com.bumptech.glide.load.model.FileLoader$FileFetcher.loadData(FileLoader.java:79)
+                                                                                                    	at com.bumptech.glide.load.engine.DataCacheGenerator.startNext(DataCacheGenerator.java:74)
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.runGenerators(DecodeJob.java:310)
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.decodeFromRetrievedData(DecodeJob.java:434)
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.onDataFetcherReady(DecodeJob.java:390)
+                                                                                                    	at com.bumptech.glide.load.engine.DataCacheGenerator.onDataReady(DataCacheGenerator.java:94)
+                                                                                                    	at com.bumptech.glide.load.model.ByteBufferFileLoader$ByteBufferFetcher.loadData(ByteBufferFileLoader.java:70)
+                                                                                                    	at com.bumptech.glide.load.engine.DataCacheGenerator.startNext(DataCacheGenerator.java:74)
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.runGenerators(DecodeJob.java:310)
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.runWrapped(DecodeJob.java:276)
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.run(DecodeJob.java:234)
+                                                                                                    	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+                                                                                                    	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+                                                                                                    	at java.lang.Thread.run(Thread.java:764)
+                                                                                                    	at com.bumptech.glide.load.engine.executor.GlideExecutor$DefaultThreadFactory$1.run(GlideExecutor.java:393)
+                                                                                                    Caused by: java.lang.RuntimeException: setDataSource failed: status = 0x80000000
+                                                                                                    	at android.media.MediaMetadataRetriever.setDataSource(Native Method)
+                                                                                                    	at android.media.MediaMetadataRetriever.setDataSource(MediaMetadataRetriever.java:139)
+                                                                                                    	at com.bumptech.glide.load.resource.bitmap.VideoDecoder$ParcelFileDescriptorInitializer.initialize(VideoDecoder.java:306)
+                                                                                                    	at com.bumptech.glide.load.resource.bitmap.VideoDecoder$ParcelFileDescriptorInitializer.initialize(VideoDecoder.java:301)
+                                                                                                    	at com.bumptech.glide.load.resource.bitmap.VideoDecoder.decode(VideoDecoder.java:173)
+                                                                                                    	at com.bumptech.glide.load.engine.DecodePath.decodeResourceWithList(DecodePath.java:92) 
+                                                                                                    	at com.bumptech.glide.load.engine.DecodePath.decodeResource(DecodePath.java:70) 
+                                                                                                    	at com.bumptech.glide.load.engine.DecodePath.decode(DecodePath.java:59) 
+                                                                                                    	at com.bumptech.glide.load.engine.LoadPath.loadWithExceptionList(LoadPath.java:76) 
+                                                                                                    	at com.bumptech.glide.load.engine.LoadPath.load(LoadPath.java:57) 
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.runLoadPath(DecodeJob.java:524) 
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.decodeFromFetcher(DecodeJob.java:488) 
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.decodeFromData(DecodeJob.java:474) 
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.decodeFromRetrievedData(DecodeJob.java:426) 
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.onDataFetcherReady(DecodeJob.java:390) 
+                                                                                                    	at com.bumptech.glide.load.engine.DataCacheGenerator.onDataReady(DataCacheGenerator.java:94) 
+                                                                                                    	at com.bumptech.glide.load.model.FileLoader$FileFetcher.loadData(FileLoader.java:79) 
+                                                                                                    	at com.bumptech.glide.load.engine.DataCacheGenerator.startNext(DataCacheGenerator.java:74) 
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.runGenerators(DecodeJob.java:310) 
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.decodeFromRetrievedData(DecodeJob.java:434) 
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.onDataFetcherReady(DecodeJob.java:390) 
+                                                                                                    	at com.bumptech.glide.load.engine.DataCacheGenerator.onDataReady(DataCacheGenerator.java:94) 
+                                                                                                    	at com.bumptech.glide.load.model.FileLoader$FileFetcher.loadData(FileLoader.java:79) 
+                                                                                                    	at com.bumptech.glide.load.engine.DataCacheGenerator.startNext(DataCacheGenerator.java:74) 
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.runGenerators(DecodeJob.java:310) 
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.decodeFromRetrievedData(DecodeJob.java:434) 
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.onDataFetcherReady(DecodeJob.java:390) 
+                                                                                                    	at com.bumptech.glide.load.engine.DataCacheGenerator.onDataReady(DataCacheGenerator.java:94) 
+                                                                                                    	at com.bumptech.glide.load.model.ByteBufferFileLoader$ByteBufferFetcher.loadData(ByteBufferFileLoader.java:70) 
+                                                                                                    	at com.bumptech.glide.load.engine.DataCacheGenerator.startNext(DataCacheGenerator.java:74) 
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.runGenerators(DecodeJob.java:310) 
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.runWrapped(DecodeJob.java:276) 
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.run(DecodeJob.java:234) 
+                                                                                                    	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162) 
+                                                                                                    	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636) 
+                                                                                                    	at java.lang.Thread.run(Thread.java:764) 
+                                                                                                    	at com.bumptech.glide.load.engine.executor.GlideExecutor$DefaultThreadFactory$1.run(GlideExecutor.java:393) 
+2024-01-19 22:37:16.758  7094-7094  Glide                   com.example.testproject              I  Root cause (4 of 8)
+                                                                                                    java.io.IOException: java.lang.RuntimeException: setDataSource failed: status = 0x80000000
+                                                                                                    	at com.bumptech.glide.load.resource.bitmap.VideoDecoder.decode(VideoDecoder.java:185)
+                                                                                                    	at com.bumptech.glide.load.resource.bitmap.BitmapDrawableDecoder.decode(BitmapDrawableDecoder.java:58)
+                                                                                                    	at com.bumptech.glide.load.engine.DecodePath.decodeResourceWithList(DecodePath.java:92)
+                                                                                                    	at com.bumptech.glide.load.engine.DecodePath.decodeResource(DecodePath.java:70)
+                                                                                                    	at com.bumptech.glide.load.engine.DecodePath.decode(DecodePath.java:59)
+                                                                                                    	at com.bumptech.glide.load.engine.LoadPath.loadWithExceptionList(LoadPath.java:76)
+                                                                                                    	at com.bumptech.glide.load.engine.LoadPath.load(LoadPath.java:57)
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.runLoadPath(DecodeJob.java:524)
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.decodeFromFetcher(DecodeJob.java:488)
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.decodeFromData(DecodeJob.java:474)
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.decodeFromRetrievedData(DecodeJob.java:426)
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.onDataFetcherReady(DecodeJob.java:390)
+                                                                                                    	at com.bumptech.glide.load.engine.DataCacheGenerator.onDataReady(DataCacheGenerator.java:94)
+                                                                                                    	at com.bumptech.glide.load.model.FileLoader$FileFetcher.loadData(FileLoader.java:79)
+                                                                                                    	at com.bumptech.glide.load.engine.DataCacheGenerator.startNext(DataCacheGenerator.java:74)
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.runGenerators(DecodeJob.java:310)
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.decodeFromRetrievedData(DecodeJob.java:434)
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.onDataFetcherReady(DecodeJob.java:390)
+                                                                                                    	at com.bumptech.glide.load.engine.DataCacheGenerator.onDataReady(DataCacheGenerator.java:94)
+                                                                                                    	at com.bumptech.glide.load.model.FileLoader$FileFetcher.loadData(FileLoader.java:79)
+                                                                                                    	at com.bumptech.glide.load.engine.DataCacheGenerator.startNext(DataCacheGenerator.java:74)
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.runGenerators(DecodeJob.java:310)
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.decodeFromRetrievedData(DecodeJob.java:434)
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.onDataFetcherReady(DecodeJob.java:390)
+                                                                                                    	at com.bumptech.glide.load.engine.DataCacheGenerator.onDataReady(DataCacheGenerator.java:94)
+                                                                                                    	at com.bumptech.glide.load.model.ByteBufferFileLoader$ByteBufferFetcher.loadData(ByteBufferFileLoader.java:70)
+                                                                                                    	at com.bumptech.glide.load.engine.DataCacheGenerator.startNext(DataCacheGenerator.java:74)
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.runGenerators(DecodeJob.java:310)
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.runWrapped(DecodeJob.java:276)
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.run(DecodeJob.java:234)
+                                                                                                    	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+                                                                                                    	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+                                                                                                    	at java.lang.Thread.run(Thread.java:764)
+                                                                                                    	at com.bumptech.glide.load.engine.executor.GlideExecutor$DefaultThreadFactory$1.run(GlideExecutor.java:393)
+                                                                                                    Caused by: java.lang.RuntimeException: setDataSource failed: status = 0x80000000
+                                                                                                    	at android.media.MediaMetadataRetriever.setDataSource(Native Method)
+                                                                                                    	at android.media.MediaMetadataRetriever.setDataSource(MediaMetadataRetriever.java:139)
+                                                                                                    	at com.bumptech.glide.load.resource.bitmap.VideoDecoder$ParcelFileDescriptorInitializer.initialize(VideoDecoder.java:306)
+                                                                                                    	at com.bumptech.glide.load.resource.bitmap.VideoDecoder$ParcelFileDescriptorInitializer.initialize(VideoDecoder.java:301)
+                                                                                                    	at com.bumptech.glide.load.resource.bitmap.VideoDecoder.decode(VideoDecoder.java:173)
+                                                                                                    	at com.bumptech.glide.load.resource.bitmap.BitmapDrawableDecoder.decode(BitmapDrawableDecoder.java:58) 
+                                                                                                    	at com.bumptech.glide.load.engine.DecodePath.decodeResourceWithList(DecodePath.java:92) 
+                                                                                                    	at com.bumptech.glide.load.engine.DecodePath.decodeResource(DecodePath.java:70) 
+                                                                                                    	at com.bumptech.glide.load.engine.DecodePath.decode(DecodePath.java:59) 
+                                                                                                    	at com.bumptech.glide.load.engine.LoadPath.loadWithExceptionList(LoadPath.java:76) 
+                                                                                                    	at com.bumptech.glide.load.engine.LoadPath.load(LoadPath.java:57) 
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.runLoadPath(DecodeJob.java:524) 
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.decodeFromFetcher(DecodeJob.java:488) 
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.decodeFromData(DecodeJob.java:474) 
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.decodeFromRetrievedData(DecodeJob.java:426) 
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.onDataFetcherReady(DecodeJob.java:390) 
+                                                                                                    	at com.bumptech.glide.load.engine.DataCacheGenerator.onDataReady(DataCacheGenerator.java:94) 
+                                                                                                    	at com.bumptech.glide.load.model.FileLoader$FileFetcher.loadData(FileLoader.java:79) 
+                                                                                                    	at com.bumptech.glide.load.engine.DataCacheGenerator.startNext(DataCacheGenerator.java:74) 
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.runGenerators(DecodeJob.java:310) 
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.decodeFromRetrievedData(DecodeJob.java:434) 
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.onDataFetcherReady(DecodeJob.java:390) 
+                                                                                                    	at com.bumptech.glide.load.engine.DataCacheGenerator.onDataReady(DataCacheGenerator.java:94) 
+                                                                                                    	at com.bumptech.glide.load.model.FileLoader$FileFetcher.loadData(FileLoader.java:79) 
+                                                                                                    	at com.bumptech.glide.load.engine.DataCacheGenerator.startNext(DataCacheGenerator.java:74) 
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.runGenerators(DecodeJob.java:310) 
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.decodeFromRetrievedData(DecodeJob.java:434) 
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.onDataFetcherReady(DecodeJob.java:390) 
+                                                                                                    	at com.bumptech.glide.load.engine.DataCacheGenerator.onDataReady(DataCacheGenerator.java:94) 
+                                                                                                    	at com.bumptech.glide.load.model.ByteBufferFileLoader$ByteBufferFetcher.loadData(ByteBufferFileLoader.java:70) 
+                                                                                                    	at com.bumptech.glide.load.engine.DataCacheGenerator.startNext(DataCacheGenerator.java:74) 
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.runGenerators(DecodeJob.java:310) 
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.runWrapped(DecodeJob.java:276) 
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.run(DecodeJob.java:234) 
+                                                                                                    	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162) 
+                                                                                                    	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636) 
+                                                                                                    	at java.lang.Thread.run(Thread.java:764) 
+                                                                                                    	at com.bumptech.glide.load.engine.executor.GlideExecutor$DefaultThreadFactory$1.run(GlideExecutor.java:393) 
+2024-01-19 22:37:16.760  7094-7094  Glide                   com.example.testproject              I  Root cause (5 of 8)
+                                                                                                    java.io.IOException: java.lang.RuntimeException: setDataSourceCallback failed: status = 0x80000000
+                                                                                                    	at com.bumptech.glide.load.resource.bitmap.VideoDecoder.decode(VideoDecoder.java:185)
+                                                                                                    	at com.bumptech.glide.load.engine.DecodePath.decodeResourceWithList(DecodePath.java:92)
+                                                                                                    	at com.bumptech.glide.load.engine.DecodePath.decodeResource(DecodePath.java:70)
+                                                                                                    	at com.bumptech.glide.load.engine.DecodePath.decode(DecodePath.java:59)
+                                                                                                    	at com.bumptech.glide.load.engine.LoadPath.loadWithExceptionList(LoadPath.java:76)
+                                                                                                    	at com.bumptech.glide.load.engine.LoadPath.load(LoadPath.java:57)
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.runLoadPath(DecodeJob.java:524)
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.decodeFromFetcher(DecodeJob.java:488)
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.decodeFromData(DecodeJob.java:474)
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.decodeFromRetrievedData(DecodeJob.java:426)
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.onDataFetcherReady(DecodeJob.java:390)
+                                                                                                    	at com.bumptech.glide.load.engine.SourceGenerator.onDataFetcherReady(SourceGenerator.java:176)
+                                                                                                    	at com.bumptech.glide.load.engine.DataCacheGenerator.onDataReady(DataCacheGenerator.java:94)
+                                                                                                    	at com.bumptech.glide.load.model.ByteBufferFileLoader$ByteBufferFetcher.loadData(ByteBufferFileLoader.java:70)
+                                                                                                    	at com.bumptech.glide.load.engine.DataCacheGenerator.startNext(DataCacheGenerator.java:74)
+                                                                                                    	at com.bumptech.glide.load.engine.SourceGenerator.startNext(SourceGenerator.java:50)
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.runGenerators(DecodeJob.java:310)
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.runWrapped(DecodeJob.java:279)
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.run(DecodeJob.java:234)
+                                                                                                    	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+                                                                                                    	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+                                                                                                    	at java.lang.Thread.run(Thread.java:764)
+                                                                                                    	at com.bumptech.glide.load.engine.executor.GlideExecutor$DefaultThreadFactory$1.run(GlideExecutor.java:393)
+                                                                                                    Caused by: java.lang.RuntimeException: setDataSourceCallback failed: status = 0x80000000
+                                                                                                    	at android.media.MediaMetadataRetriever._setDataSource(Native Method)
+                                                                                                    	at android.media.MediaMetadataRetriever.setDataSource(MediaMetadataRetriever.java:207)
+                                                                                                    	at com.bumptech.glide.load.resource.bitmap.VideoDecoder$ByteBufferInitializer.initialize(VideoDecoder.java:316)
+                                                                                                    	at com.bumptech.glide.load.resource.bitmap.VideoDecoder$ByteBufferInitializer.initialize(VideoDecoder.java:310)
+                                                                                                    	at com.bumptech.glide.load.resource.bitmap.VideoDecoder.decode(VideoDecoder.java:173)
+                                                                                                    	at com.bumptech.glide.load.engine.DecodePath.decodeResourceWithList(DecodePath.java:92) 
+                                                                                                    	at com.bumptech.glide.load.engine.DecodePath.decodeResource(DecodePath.java:70) 
+                                                                                                    	at com.bumptech.glide.load.engine.DecodePath.decode(DecodePath.java:59) 
+                                                                                                    	at com.bumptech.glide.load.engine.LoadPath.loadWithExceptionList(LoadPath.java:76) 
+                                                                                                    	at com.bumptech.glide.load.engine.LoadPath.load(LoadPath.java:57) 
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.runLoadPath(DecodeJob.java:524) 
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.decodeFromFetcher(DecodeJob.java:488) 
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.decodeFromData(DecodeJob.java:474) 
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.decodeFromRetrievedData(DecodeJob.java:426) 
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.onDataFetcherReady(DecodeJob.java:390) 
+                                                                                                    	at com.bumptech.glide.load.engine.SourceGenerator.onDataFetcherReady(SourceGenerator.java:176) 
+                                                                                                    	at com.bumptech.glide.load.engine.DataCacheGenerator.onDataReady(DataCacheGenerator.java:94) 
+                                                                                                    	at com.bumptech.glide.load.model.ByteBufferFileLoader$ByteBufferFetcher.loadData(ByteBufferFileLoader.java:70) 
+                                                                                                    	at com.bumptech.glide.load.engine.DataCacheGenerator.startNext(DataCacheGenerator.java:74) 
+                                                                                                    	at com.bumptech.glide.load.engine.SourceGenerator.startNext(SourceGenerator.java:50) 
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.runGenerators(DecodeJob.java:310) 
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.runWrapped(DecodeJob.java:279) 
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.run(DecodeJob.java:234) 
+                                                                                                    	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162) 
+                                                                                                    	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636) 
+                                                                                                    	at java.lang.Thread.run(Thread.java:764) 
+                                                                                                    	at com.bumptech.glide.load.engine.executor.GlideExecutor$DefaultThreadFactory$1.run(GlideExecutor.java:393) 
+2024-01-19 22:37:16.761  7094-7094  Glide                   com.example.testproject              I  Root cause (6 of 8)
+                                                                                                    java.io.IOException: java.lang.RuntimeException: setDataSourceCallback failed: status = 0x80000000
+                                                                                                    	at com.bumptech.glide.load.resource.bitmap.VideoDecoder.decode(VideoDecoder.java:185)
+                                                                                                    	at com.bumptech.glide.load.resource.bitmap.BitmapDrawableDecoder.decode(BitmapDrawableDecoder.java:58)
+                                                                                                    	at com.bumptech.glide.load.engine.DecodePath.decodeResourceWithList(DecodePath.java:92)
+                                                                                                    	at com.bumptech.glide.load.engine.DecodePath.decodeResource(DecodePath.java:70)
+                                                                                                    	at com.bumptech.glide.load.engine.DecodePath.decode(DecodePath.java:59)
+                                                                                                    	at com.bumptech.glide.load.engine.LoadPath.loadWithExceptionList(LoadPath.java:76)
+                                                                                                    	at com.bumptech.glide.load.engine.LoadPath.load(LoadPath.java:57)
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.runLoadPath(DecodeJob.java:524)
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.decodeFromFetcher(DecodeJob.java:488)
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.decodeFromData(DecodeJob.java:474)
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.decodeFromRetrievedData(DecodeJob.java:426)
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.onDataFetcherReady(DecodeJob.java:390)
+                                                                                                    	at com.bumptech.glide.load.engine.SourceGenerator.onDataFetcherReady(SourceGenerator.java:176)
+                                                                                                    	at com.bumptech.glide.load.engine.DataCacheGenerator.onDataReady(DataCacheGenerator.java:94)
+                                                                                                    	at com.bumptech.glide.load.model.ByteBufferFileLoader$ByteBufferFetcher.loadData(ByteBufferFileLoader.java:70)
+                                                                                                    	at com.bumptech.glide.load.engine.DataCacheGenerator.startNext(DataCacheGenerator.java:74)
+                                                                                                    	at com.bumptech.glide.load.engine.SourceGenerator.startNext(SourceGenerator.java:50)
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.runGenerators(DecodeJob.java:310)
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.runWrapped(DecodeJob.java:279)
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.run(DecodeJob.java:234)
+                                                                                                    	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+                                                                                                    	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+                                                                                                    	at java.lang.Thread.run(Thread.java:764)
+                                                                                                    	at com.bumptech.glide.load.engine.executor.GlideExecutor$DefaultThreadFactory$1.run(GlideExecutor.java:393)
+                                                                                                    Caused by: java.lang.RuntimeException: setDataSourceCallback failed: status = 0x80000000
+                                                                                                    	at android.media.MediaMetadataRetriever._setDataSource(Native Method)
+                                                                                                    	at android.media.MediaMetadataRetriever.setDataSource(MediaMetadataRetriever.java:207)
+                                                                                                    	at com.bumptech.glide.load.resource.bitmap.VideoDecoder$ByteBufferInitializer.initialize(VideoDecoder.java:316)
+                                                                                                    	at com.bumptech.glide.load.resource.bitmap.VideoDecoder$ByteBufferInitializer.initialize(VideoDecoder.java:310)
+                                                                                                    	at com.bumptech.glide.load.resource.bitmap.VideoDecoder.decode(VideoDecoder.java:173)
+                                                                                                    	at com.bumptech.glide.load.resource.bitmap.BitmapDrawableDecoder.decode(BitmapDrawableDecoder.java:58) 
+                                                                                                    	at com.bumptech.glide.load.engine.DecodePath.decodeResourceWithList(DecodePath.java:92) 
+                                                                                                    	at com.bumptech.glide.load.engine.DecodePath.decodeResource(DecodePath.java:70) 
+                                                                                                    	at com.bumptech.glide.load.engine.DecodePath.decode(DecodePath.java:59) 
+                                                                                                    	at com.bumptech.glide.load.engine.LoadPath.loadWithExceptionList(LoadPath.java:76) 
+                                                                                                    	at com.bumptech.glide.load.engine.LoadPath.load(LoadPath.java:57) 
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.runLoadPath(DecodeJob.java:524) 
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.decodeFromFetcher(DecodeJob.java:488) 
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.decodeFromData(DecodeJob.java:474) 
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.decodeFromRetrievedData(DecodeJob.java:426) 
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.onDataFetcherReady(DecodeJob.java:390) 
+                                                                                                    	at com.bumptech.glide.load.engine.SourceGenerator.onDataFetcherReady(SourceGenerator.java:176) 
+                                                                                                    	at com.bumptech.glide.load.engine.DataCacheGenerator.onDataReady(DataCacheGenerator.java:94) 
+                                                                                                    	at com.bumptech.glide.load.model.ByteBufferFileLoader$ByteBufferFetcher.loadData(ByteBufferFileLoader.java:70) 
+                                                                                                    	at com.bumptech.glide.load.engine.DataCacheGenerator.startNext(DataCacheGenerator.java:74) 
+                                                                                                    	at com.bumptech.glide.load.engine.SourceGenerator.startNext(SourceGenerator.java:50) 
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.runGenerators(DecodeJob.java:310) 
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.runWrapped(DecodeJob.java:279) 
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.run(DecodeJob.java:234) 
+                                                                                                    	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162) 
+                                                                                                    	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636) 
+                                                                                                    	at java.lang.Thread.run(Thread.java:764) 
+                                                                                                    	at com.bumptech.glide.load.engine.executor.GlideExecutor$DefaultThreadFactory$1.run(GlideExecutor.java:393) 
+2024-01-19 22:37:16.765  7094-7094  Glide                   com.example.testproject              I  Root cause (7 of 8)
+                                                                                                    java.io.IOException: java.lang.RuntimeException: setDataSource failed: status = 0x80000000
+                                                                                                    	at com.bumptech.glide.load.resource.bitmap.VideoDecoder.decode(VideoDecoder.java:185)
+                                                                                                    	at com.bumptech.glide.load.engine.DecodePath.decodeResourceWithList(DecodePath.java:92)
+                                                                                                    	at com.bumptech.glide.load.engine.DecodePath.decodeResource(DecodePath.java:70)
+                                                                                                    	at com.bumptech.glide.load.engine.DecodePath.decode(DecodePath.java:59)
+                                                                                                    	at com.bumptech.glide.load.engine.LoadPath.loadWithExceptionList(LoadPath.java:76)
+                                                                                                    	at com.bumptech.glide.load.engine.LoadPath.load(LoadPath.java:57)
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.runLoadPath(DecodeJob.java:524)
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.decodeFromFetcher(DecodeJob.java:488)
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.decodeFromData(DecodeJob.java:474)
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.decodeFromRetrievedData(DecodeJob.java:426)
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.onDataFetcherReady(DecodeJob.java:390)
+                                                                                                    	at com.bumptech.glide.load.engine.SourceGenerator.onDataFetcherReady(SourceGenerator.java:176)
+                                                                                                    	at com.bumptech.glide.load.engine.DataCacheGenerator.onDataReady(DataCacheGenerator.java:94)
+                                                                                                    	at com.bumptech.glide.load.model.FileLoader$FileFetcher.loadData(FileLoader.java:79)
+                                                                                                    	at com.bumptech.glide.load.engine.DataCacheGenerator.startNext(DataCacheGenerator.java:74)
+                                                                                                    	at com.bumptech.glide.load.engine.SourceGenerator.startNext(SourceGenerator.java:50)
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.runGenerators(DecodeJob.java:310)
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.decodeFromRetrievedData(DecodeJob.java:434)
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.onDataFetcherReady(DecodeJob.java:390)
+                                                                                                    	at com.bumptech.glide.load.engine.SourceGenerator.onDataFetcherReady(SourceGenerator.java:176)
+                                                                                                    	at com.bumptech.glide.load.engine.DataCacheGenerator.onDataReady(DataCacheGenerator.java:94)
+                                                                                                    	at com.bumptech.glide.load.model.FileLoader$FileFetcher.loadData(FileLoader.java:79)
+                                                                                                    	at com.bumptech.glide.load.engine.DataCacheGenerator.startNext(DataCacheGenerator.java:74)
+                                                                                                    	at com.bumptech.glide.load.engine.SourceGenerator.startNext(SourceGenerator.java:50)
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.runGenerators(DecodeJob.java:310)
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.decodeFromRetrievedData(DecodeJob.java:434)
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.onDataFetcherReady(DecodeJob.java:390)
+                                                                                                    	at com.bumptech.glide.load.engine.SourceGenerator.onDataFetcherReady(SourceGenerator.java:176)
+                                                                                                    	at com.bumptech.glide.load.engine.DataCacheGenerator.onDataReady(DataCacheGenerator.java:94)
+                                                                                                    	at com.bumptech.glide.load.model.ByteBufferFileLoader$ByteBufferFetcher.loadData(ByteBufferFileLoader.java:70)
+                                                                                                    	at com.bumptech.glide.load.engine.DataCacheGenerator.startNext(DataCacheGenerator.java:74)
+                                                                                                    	at com.bumptech.glide.load.engine.SourceGenerator.startNext(SourceGenerator.java:50)
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.runGenerators(DecodeJob.java:310)
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.runWrapped(DecodeJob.java:279)
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.run(DecodeJob.java:234)
+                                                                                                    	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+                                                                                                    	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+                                                                                                    	at java.lang.Thread.run(Thread.java:764)
+                                                                                                    	at com.bumptech.glide.load.engine.executor.GlideExecutor$DefaultThreadFactory$1.run(GlideExecutor.java:393)
+                                                                                                    Caused by: java.lang.RuntimeException: setDataSource failed: status = 0x80000000
+                                                                                                    	at android.media.MediaMetadataRetriever.setDataSource(Native Method)
+                                                                                                    	at android.media.MediaMetadataRetriever.setDataSource(MediaMetadataRetriever.java:139)
+                                                                                                    	at com.bumptech.glide.load.resource.bitmap.VideoDecoder$ParcelFileDescriptorInitializer.initialize(VideoDecoder.java:306)
+                                                                                                    	at com.bumptech.glide.load.resource.bitmap.VideoDecoder$ParcelFileDescriptorInitializer.initialize(VideoDecoder.java:301)
+                                                                                                    	at com.bumptech.glide.load.resource.bitmap.VideoDecoder.decode(VideoDecoder.java:173)
+                                                                                                    	at com.bumptech.glide.load.engine.DecodePath.decodeResourceWithList(DecodePath.java:92) 
+                                                                                                    	at com.bumptech.glide.load.engine.DecodePath.decodeResource(DecodePath.java:70) 
+                                                                                                    	at com.bumptech.glide.load.engine.DecodePath.decode(DecodePath.java:59) 
+                                                                                                    	at com.bumptech.glide.load.engine.LoadPath.loadWithExceptionList(LoadPath.java:76) 
+                                                                                                    	at com.bumptech.glide.load.engine.LoadPath.load(LoadPath.java:57) 
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.runLoadPath(DecodeJob.java:524) 
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.decodeFromFetcher(DecodeJob.java:488) 
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.decodeFromData(DecodeJob.java:474) 
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.decodeFromRetrievedData(DecodeJob.java:426) 
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.onDataFetcherReady(DecodeJob.java:390) 
+                                                                                                    	at com.bumptech.glide.load.engine.SourceGenerator.onDataFetcherReady(SourceGenerator.java:176) 
+                                                                                                    	at com.bumptech.glide.load.engine.DataCacheGenerator.onDataReady(DataCacheGenerator.java:94) 
+                                                                                                    	at com.bumptech.glide.load.model.FileLoader$FileFetcher.loadData(FileLoader.java:79) 
+                                                                                                    	at com.bumptech.glide.load.engine.DataCacheGenerator.startNext(DataCacheGenerator.java:74) 
+                                                                                                    	at com.bumptech.glide.load.engine.SourceGenerator.startNext(SourceGenerator.java:50) 
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.runGenerators(DecodeJob.java:310) 
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.decodeFromRetrievedData(DecodeJob.java:434) 
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.onDataFetcherReady(DecodeJob.java:390) 
+                                                                                                    	at com.bumptech.glide.load.engine.SourceGenerator.onDataFetcherReady(SourceGenerator.java:176) 
+                                                                                                    	at com.bumptech.glide.load.engine.DataCacheGenerator.onDataReady(DataCacheGenerator.java:94) 
+                                                                                                    	at com.bumptech.glide.load.model.FileLoader$FileFetcher.loadData(FileLoader.java:79) 
+                                                                                                    	at com.bumptech.glide.load.engine.DataCacheGenerator.startNext(DataCacheGenerator.java:74) 
+                                                                                                    	at com.bumptech.glide.load.engine.SourceGenerator.startNext(SourceGenerator.java:50) 
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.runGenerators(DecodeJob.java:310) 
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.decodeFromRetrievedData(DecodeJob.java:434) 
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.onDataFetcherReady(DecodeJob.java:390) 
+                                                                                                    	at com.bumptech.glide.load.engine.SourceGenerator.onDataFetcherReady(SourceGenerator.java:176) 
+                                                                                                    	at com.bumptech.glide.load.engine.DataCacheGenerator.onDataReady(DataCacheGenerator.java:94) 
+                                                                                                    	at com.bumptech.glide.load.model.ByteBufferFileLoader$ByteBufferFetcher.loadData(ByteBufferFileLoader.java:70) 
+                                                                                                    	at com.bumptech.glide.load.engine.DataCacheGenerator.startNext(DataCacheGenerator.java:74) 
+                                                                                                    	at com.bumptech.glide.load.engine.SourceGenerator.startNext(SourceGenerator.java:50) 
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.runGenerators(DecodeJob.java:310) 
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.runWrapped(DecodeJob.java:279) 
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.run(DecodeJob.java:234) 
+                                                                                                    	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162) 
+                                                                                                    	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636) 
+                                                                                                    	at java.lang.Thread.run(Thread.java:764) 
+                                                                                                    	at com.bumptech.glide.load.engine.executor.GlideExecutor$DefaultThreadFactory$1.run(GlideExecutor.java:393) 
+2024-01-19 22:37:16.767  7094-7099  zygote                  com.example.testproject              I  Do partial code cache collection, code=61KB, data=46KB
+2024-01-19 22:37:16.768  7094-7099  zygote                  com.example.testproject              I  After code cache collection, code=61KB, data=46KB
+2024-01-19 22:37:16.768  7094-7099  zygote                  com.example.testproject              I  Increasing code cache capacity to 256KB
+2024-01-19 22:37:16.770  7094-7094  Glide                   com.example.testproject              I  Root cause (8 of 8)
+                                                                                                    java.io.IOException: java.lang.RuntimeException: setDataSource failed: status = 0x80000000
+                                                                                                    	at com.bumptech.glide.load.resource.bitmap.VideoDecoder.decode(VideoDecoder.java:185)
+                                                                                                    	at com.bumptech.glide.load.resource.bitmap.BitmapDrawableDecoder.decode(BitmapDrawableDecoder.java:58)
+                                                                                                    	at com.bumptech.glide.load.engine.DecodePath.decodeResourceWithList(DecodePath.java:92)
+                                                                                                    	at com.bumptech.glide.load.engine.DecodePath.decodeResource(DecodePath.java:70)
+                                                                                                    	at com.bumptech.glide.load.engine.DecodePath.decode(DecodePath.java:59)
+                                                                                                    	at com.bumptech.glide.load.engine.LoadPath.loadWithExceptionList(LoadPath.java:76)
+                                                                                                    	at com.bumptech.glide.load.engine.LoadPath.load(LoadPath.java:57)
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.runLoadPath(DecodeJob.java:524)
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.decodeFromFetcher(DecodeJob.java:488)
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.decodeFromData(DecodeJob.java:474)
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.decodeFromRetrievedData(DecodeJob.java:426)
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.onDataFetcherReady(DecodeJob.java:390)
+                                                                                                    	at com.bumptech.glide.load.engine.SourceGenerator.onDataFetcherReady(SourceGenerator.java:176)
+                                                                                                    	at com.bumptech.glide.load.engine.DataCacheGenerator.onDataReady(DataCacheGenerator.java:94)
+                                                                                                    	at com.bumptech.glide.load.model.FileLoader$FileFetcher.loadData(FileLoader.java:79)
+                                                                                                    	at com.bumptech.glide.load.engine.DataCacheGenerator.startNext(DataCacheGenerator.java:74)
+                                                                                                    	at com.bumptech.glide.load.engine.SourceGenerator.startNext(SourceGenerator.java:50)
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.runGenerators(DecodeJob.java:310)
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.decodeFromRetrievedData(DecodeJob.java:434)
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.onDataFetcherReady(DecodeJob.java:390)
+                                                                                                    	at com.bumptech.glide.load.engine.SourceGenerator.onDataFetcherReady(SourceGenerator.java:176)
+                                                                                                    	at com.bumptech.glide.load.engine.DataCacheGenerator.onDataReady(DataCacheGenerator.java:94)
+                                                                                                    	at com.bumptech.glide.load.model.FileLoader$FileFetcher.loadData(FileLoader.java:79)
+                                                                                                    	at com.bumptech.glide.load.engine.DataCacheGenerator.startNext(DataCacheGenerator.java:74)
+                                                                                                    	at com.bumptech.glide.load.engine.SourceGenerator.startNext(SourceGenerator.java:50)
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.runGenerators(DecodeJob.java:310)
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.decodeFromRetrievedData(DecodeJob.java:434)
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.onDataFetcherReady(DecodeJob.java:390)
+                                                                                                    	at com.bumptech.glide.load.engine.SourceGenerator.onDataFetcherReady(SourceGenerator.java:176)
+                                                                                                    	at com.bumptech.glide.load.engine.DataCacheGenerator.onDataReady(DataCacheGenerator.java:94)
+                                                                                                    	at com.bumptech.glide.load.model.ByteBufferFileLoader$ByteBufferFetcher.loadData(ByteBufferFileLoader.java:70)
+                                                                                                    	at com.bumptech.glide.load.engine.DataCacheGenerator.startNext(DataCacheGenerator.java:74)
+                                                                                                    	at com.bumptech.glide.load.engine.SourceGenerator.startNext(SourceGenerator.java:50)
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.runGenerators(DecodeJob.java:310)
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.runWrapped(DecodeJob.java:279)
+                                                                                                    	at com.bumptech.glide.load.engine.DecodeJob.run(DecodeJob.java:234)
+                                                                                                    	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+                                                                                                    	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+                                                                                                    	at java.lang.Thread.run(Thread.java:764)
+                                                                                                    	at com.bumptech.glide.load.engine.executor.GlideExecutor$DefaultThreadFactory$1.run(GlideExecutor.java:393)
+                                                                                                    Caused by: java.lang.RuntimeException: setDataSource failed: status = 0x80000000
+                                                                                                    	at android.media.MediaMetadataRetriever.setDataSource(Native Method)
+                                                                                                    	at android.media.MediaMetadataRetriever.setDataSource(MediaMetadataRetriever.java:139)
+                                                                                                    	at com.bumptech.glide.load.resource.bitmap.VideoDecoder$ParcelFileDescriptorInitializer.initialize(VideoDecoder.java:306)
+                                                                                                    	at com.bumptech.glide.load.resource.bitmap.VideoDecoder$ParcelFileDescriptorInitializer.initialize(VideoDecoder.java:301)
+2024-01-19 22:37:16.770  7094-7094  Glide                   com.example.testproject              I  	at com.bumptech.glide.load.resource.bitmap.VideoDecoder.decode(VideoDecoder.java:173)
+                                                                                                    	... 39 more
+2024-01-19 22:37:16.771  7094-7094  FIAM.Display            com.example.testproject              E  Image download failure 
+2024-01-19 22:37:19.302  7094-7153  ProfileInstaller        com.example.testproject              D  Installing profile for com.example.testproject
+2024-01-19 22:37:28.256  7094-7101  zygote                  com.example.testproject              I  Debugger is no longer active
